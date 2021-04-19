@@ -1,27 +1,27 @@
 takeoff
-go 11.6 0 0 30
-go 20 7 0 30
-go 20 14 0 30
-go 20 21 0 30
-go 20 28 0 30
-go 13 35 0 30
-go -35 -13 0 30
-go -28 -20 0 30
-go -21 -20 0 30
-go -14 -20 0 30
-go -7 -20 0 30
-go 0 -11.6 0 30
-go 11.6 0 0 30
-go 20 -7 0 30
-go 20 -14 0 30
-go 20 -21 0 30
-go 20 -28 0 30
-go 13 -35 0 30
-go -34 13 0 30
-go -28 20 0 30
-go -21 20 0 30
-go -14 20 0 30
-go -7 20 0 30
-go 0 11.6 0 30
-go -11.6 0 0 30
+send("go " + str(11.6) + " " + str(0) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(20) + " " + str(7) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(20) + " " + str(14) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(20) + " " + str(21) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(20) + " " + str(28) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(13) + " " + str(35) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-35) + " " + str(-13) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-28) + " " + str(-20) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-21) + " " + str(-20) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-14) + " " + str(-20) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-7) + " " + str(-20) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(0) + " " + str(-11) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(11.6) + " " + str(0) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(20) + " " + str(-7) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(20) + " " + str(-14) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(20) + " " + str(-21) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(20) + " " + str(-28) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(13) + " " + str(-35) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-35) + " " + str(13) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-28) + " " + str(20) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-21) + " " + str(20) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-14) + " " + str(20) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-7) + " " + str(20) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(0) + " " + str(11.6) + " " + str(0) +  " " + str(30), 5)
+send("go " + str(-11.6) + " " + str(0) + " " + str(0) +  " " + str(30), 5)
 land
